@@ -1,0 +1,32 @@
+.catalog-container {
+  color: #000;
+  text-align: center;
+}
+
+.card-container-image img {
+  width: 100%;
+}
+
+.card-container-info {
+  width: 260px;
+}
+
+.card-container-info h5 {
+  font-size: 18px;
+}
+
+.card-container-info p {
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-container-info h5 + p {
+  margin-top: 10px;
+}
+
+.card-container-info button {
+  width: 260px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+}

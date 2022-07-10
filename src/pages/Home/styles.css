@@ -97,7 +97,7 @@
 
 @media (min-width: 1200px) {
     .home-container{
-        margin: 30px 100px
+        margin: 30px 125px;
     }
 
     .card-container{
@@ -105,12 +105,16 @@
         justify-content: space-evenly;
     }
 
-    .card-container-image img {
-        min-width: 400px;
-        
+    .card-container {
+        padding: 60px 80px;
       }
 
-    .card-container-content h5, p{
+    .card-container-image img {
+        min-width: 400px;
+      }
+
+    .card-container-content p, .card-container-content h5{
         text-align: left;
+        padding-left: 20px;
     }
 }

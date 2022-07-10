@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         <div className="secondary-card base-card">
-          <button className="btn btn-secundary">Ver catálogo</button>
+          <button className="btn btn-secondary">Ver catálogo</button>
           <p>Comece agora a navegar</p>
         </div>
       </div>
