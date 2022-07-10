@@ -1,12 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        React App
-      </h1>
+      <Home />
     </div>
   );
 }
