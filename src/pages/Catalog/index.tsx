@@ -1,5 +1,5 @@
 import Filter from 'components/Filter';
-import Navbar from 'components/Navbar';
+
 import ProductCard from 'components/ProductCard';
 
 import './styles.css';
@@ -7,7 +7,6 @@ import './styles.css';
 function Catalog() {
   return (
     <>
-      <Navbar />
       <div className="catalog-container">
         <Filter />
         <div className="row">

@@ -1,11 +1,11 @@
-import Navbar from '../../components/Navbar';
+
 import CarImage from '../../assets/images/car-header.png';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
         <div className="card-container blue-card">
           <div className="card-container-image">
@@ -20,7 +20,9 @@ const Home = () => {
           </div>
         </div>
         <div className="secondary-card base-card">
-          <button className="btn btn-secondary">Ver catálogo</button>
+          <div className="btn btn-secondary">
+            <Link to="/products">Ver catálogo</Link>
+          </div>
           <p>Comece agora a navegar</p>
         </div>
       </div>
