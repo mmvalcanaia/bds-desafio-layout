@@ -4,22 +4,22 @@ import './styles.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
+    <nav className="navbar navbar-expand-md navbar-light bg-primary main-nav">
       <div className="container-fluid">
         <Link to="/" className="nav-logo-text">
           <h4>Carros Top</h4>
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#carrostop-navbar"
-          aria-controls="dscatalog-navbar"
+          aria-controls="carrostop-navbar"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon custom-toggler"></span>
         </button>
 
         <div className="collapse navbar-collapse navbar-items" id="carrostop-navbar">

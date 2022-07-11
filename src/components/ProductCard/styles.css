@@ -60,4 +60,15 @@
   }
 }
 
+@media (min-width: 1200px){
+  .product-container{
+    width: 300px;
+  }
+
+  .card-container-image {
+    padding: 0;
+  }
+
+}
+
 

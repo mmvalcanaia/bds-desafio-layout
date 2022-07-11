@@ -1,4 +1,3 @@
-
 import CarImage from '../../assets/images/car-header.png';
 import './styles.css';
 import { Link } from 'react-router-dom';
@@ -20,8 +19,10 @@ const Home = () => {
           </div>
         </div>
         <div className="secondary-card base-card">
-          <div className="btn btn-secondary">
-            <Link to="/products">Ver catálogo</Link>
+          <div >
+            <button className="btn btn-secondary">
+              <Link to="/products">Ver catálogo</Link>
+            </button>
           </div>
           <p>Comece agora a navegar</p>
         </div>

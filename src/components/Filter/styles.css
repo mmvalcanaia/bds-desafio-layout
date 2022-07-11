@@ -54,6 +54,6 @@
 @media (min-width: 1200px){
   .filter-container {
     height: 120px;
-    width: 1000x;
+    max-width: 1000px;
   }
 }
