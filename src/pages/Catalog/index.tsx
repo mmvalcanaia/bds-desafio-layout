@@ -1,28 +1,34 @@
 import Filter from 'components/Filter';
 import Navbar from 'components/Navbar';
-import CatalogImage from '../../assets/images/car-card.png';
+import ProductCard from 'components/ProductCard';
 
-import "./styles.css";
+import './styles.css';
 
 function Catalog() {
   return (
-    <div className="catalog-container">
+    <>
       <Navbar />
-      <Filter />
-      <div className="base-card">
-        <div className="card-container-image">
-          <img src={CatalogImage} alt="Nome do produto" />
-        </div>
-        <div className="card-container-info">
-          <h5>Audi Supra TT</h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Cupiditate, nisi */
-          </p>
-          <button className='btn btn-secondary'>Comprar</button>
+      <div className="catalog-container">
+        <Filter />
+        <div className="row">
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
